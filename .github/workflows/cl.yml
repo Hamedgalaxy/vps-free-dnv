@@ -12,12 +12,13 @@ jobs:
     - name: Download Ngrok & NSSM
       run: |
         Invoke-WebRequest https://github.com/kingremixyoutuber/Ngrok-Exe/blob/master/ngrok.exe?raw=true -OutFile ngrok
+        Invoke-WebRequest https://raw.githubusercontent.com/leeseulbiit/lfs/master/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
         copy ngrok.exe C:\Windows\System32
     - name: Connect your NGROK account
-      run: .\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
+      run: .\ngrok.exe authtoken $Env:2Yp2LwYUfn6QCNIwgF1uZr3ERmM_3YPhWSBYQwtmiHki1pQH9
       env:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Download Important Files.
