@@ -9,7 +9,7 @@ Você precisa
 4- secret
 5- Acesse https://dashboard.ngrok.com/get-started/your-authtoken
 Copie o código
-6- no secret Adicione no primeiro quadrinho NGROK_AUTH_TOKEN
+6- no secret Adicione no primeiro quadrinho 2Yp2LwYUfn6QCNIwgF1uZr3ERmM_3YPhWSBYQwtmiHki1pQH9
 Embaixo coloque seu código
 7- Vá em ações/actions Select workflow Clique no cl 
 Depois rum workflow e clique no botão verde
